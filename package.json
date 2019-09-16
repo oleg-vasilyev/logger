@@ -1,0 +1,14 @@
+{
+  "name": "todo-app",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build:watch": "webpack --config webpack.config.js --watch",
+    "build:prod": "webpack --config webpack.prod.config.js",
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
